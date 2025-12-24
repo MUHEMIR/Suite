@@ -157,8 +157,13 @@ Ekstrak informasi dari dalam dokumen berupa:
 dengan format dalam bentuk JSON seperti berikut:
 
 {
+"detail_pefindo_credit": [
+{
+"nama_pengurus_atau_pemegang_saham":str,
 "pefindo_credit":str
 "baki_credit":str
+}
+]
 }
 
 //
