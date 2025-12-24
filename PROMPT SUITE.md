@@ -38,20 +38,28 @@ Ekstrak Informasi dari dalam dokumen berupa:
 dengan format dalam bentuk JSON seperti berikut:
 
 {
-"asset_aslancar": str
-"asset_astetap": str
-"asset_asjumlah": str
-"perform_pendapatan": str
-"perform_laba": str
-"eq_kwlancar": str
-"eq_tdklancar": str
-"eq_jmlkw": str
-"eq_ekuitas": str
-"eq_total": str
-"own_nama": str
-"own_lbrsaham": str
-"own_jmsaham": str
-
+"assets": [
+"asset_lancar":str
+"asset_tetap":str
+"jml_asset":str
+],
+"performance": [
+"pendapatan":str
+"laba":str
+],
+"liabilites_equities": [
+"kwj_lancar":str
+"kwj_tdklancar":str
+"kwj_jml":str
+"equities":str
+"total_kwj":str
+"total_equities":str
+],
+"ownership": [
+"nama":str
+"jml_lbrsaham":str
+"jml_modalsaham":str
+]
 }
 //////
 
